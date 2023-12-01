@@ -1,0 +1,26 @@
+Computer vision is the field of artificial intelligence that enables computers to interpret and understand visual information from the world around them
+computer vision is like giving computers the ability to see and understand the world like humans do. This means that computers can now identify objects, track their movement, and even recognize complex patterns in images and videos
+
+Self-driving cars
+Medical imaging analysis
+Facial recognition
+Object detection and tracking
+Image and video classification
+
+Image filtering
+image filtering is the process of modifying an image its shades or color of pixels. it is also used to increase brightness and contrest 
+
+IMAGE THRESHOLD
+the threshold is converted everything to white or black based on the threshold value
+
+Image Gradient
+An image gradient is a directional change in the intensity or colour in an image
+
+Cannay edge Detector
+Cannay edge Detector is an edge detection operator that uses a multi-stage algoritham to detect a wide range of edges in images
+Algorithams
+Noise reduction 
+Gradient calculation
+Non maximum spppersion
+Double threshold
+Edge Tracking
