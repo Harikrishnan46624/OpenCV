@@ -42,3 +42,10 @@ cv2.setMouseCallback('image', find_cordinates)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
+
+
+
+
+
+

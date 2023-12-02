@@ -1,0 +1,45 @@
+Image gradients and Edge Detection
+Image gradients represent the changes in intensity between neighboring pixels and provide valuable information about the edges and contours within an image. Edge detection algorithms aim to identify these gradients and highlight the edges in an image.
+
+Image Gradients
+Sobel Filter: Computes the derivative of an image in the horizontal and vertical directions.
+Scharr Filter: Similar to Sobel filter, but uses a different kernel that provides slightly better results.
+Laplacian Filter: Computes the second derivative of the image, highlighting edges and corners.
+
+Canny Edge Detection
+Canny Edge Detection is a multi-stage algorithm that identifies and connects edges based on their intensity and direction.
+
+1. Noise Reduction:
+The first step involves applying a Gaussian filter to the image to blur it and remove noise.
+This prevents spurious edges from being detected.
+
+2. Gradient Calculation:
+The Sobel operator is applied to the image to compute the image gradient in both horizontal and vertical directions.
+This results in two images representing the edge strength and direction at each pixel.
+
+3. Non-Maximum Suppression:
+For each pixel, the edge strength is compared to its neighbors in the direction of the gradient.
+Only pixels with the highest gradient strength are retained, suppressing potential false edges.
+
+4. Double Thresholding:
+Two thresholds are defined: a low threshold and a high threshold.
+Edge pixels with a gradient strength higher than the high threshold are marked as strong edges.
+Pixels with a gradient strength between the low and high threshold are considered weak edges.
+Weak edges are only kept if they are connected to strong edges, otherwise they are suppressed.
+
+5. Edge Tracking:
+Starting from the strong edges, a hysteresis process is applied to connect weak edges that are connected to strong edges.
+This ensures that entire edge contours are identified.
+
+
+Image pyramid. Gaussian and Laplacian
+Image pyramids, specifically Gaussian and Laplacian pyramids, are techniques used in image processing for multi-scale representation of images. These pyramids are constructed by repeatedly applying operations like smoothing (Gaussian blurring) and subtraction (Laplacian) to the images at different scales. This helps in tasks such as image blending, image compression, and image processing at different resolutions.
+
+Gaussian Pyramid:
+A Gaussian pyramid is built by applying Gaussian blurring and down-sampling. The blurring reduces high-frequency details, and down-sampling reduces the image resolution.
+
+Laplacian Pyramid:
+A Laplacian pyramid is constructed by subtracting the up-sampled version of the next lower level Gaussian pyramid from the current level. This helps in capturing the details at different scales
+
+
+
