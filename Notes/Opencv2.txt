@@ -1,3 +1,11 @@
+Smoothing Image
+Smoothing images is a crucial step in image processing tasks. It involves reducing noise and blurring the image to improve its quality and facilitate further analysis. It is achieved by applying a convolution operation with a specific kernel or filter to the image. OpenCV provides various functions for image smoothing, including Gaussian Blur, Median Blur, and Bilateral Filter
+
+Averaging Filter: This simplest method replaces each pixel with the average of its neighboring pixels.
+Gaussian Filter:Applies a Gaussian filter kernel to the image, weighting closer neighbors more heavily.
+Median Filter:Replaces each pixel with the median of its neighboring pixels
+Bilateral Filter:Applies a bilateral filter that considers both spatial and intensity similarity between pixels
+
 Image gradients and Edge Detection
 Image gradients represent the changes in intensity between neighboring pixels and provide valuable information about the edges and contours within an image. Edge detection algorithms aim to identify these gradients and highlight the edges in an image.
 
@@ -40,6 +48,5 @@ A Gaussian pyramid is built by applying Gaussian blurring and down-sampling. The
 
 Laplacian Pyramid:
 A Laplacian pyramid is constructed by subtracting the up-sampled version of the next lower level Gaussian pyramid from the current level. This helps in capturing the details at different scales
-
 
 
