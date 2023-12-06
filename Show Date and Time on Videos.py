@@ -26,8 +26,7 @@ while(cap.isOpened()):
         # cv2.imshow('frame', height_width)
 
         date_time = str(datetime.datetime.now())
-        frame = cv2.putText(frame, date_time, (10, 50), font, 1, 
-                            (0, 255, 255), 2, cv2.LINE_AA)
+        frame = cv2.putText(frame, date_time, (10, 50), font, 1, (0, 255, 255), 2, cv2.LINE_AA)
         cv2.imshow('frame', frame)
 
 

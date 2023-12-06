@@ -1,6 +1,13 @@
-Computer vision is the field of artificial intelligence that enables computers to interpret and understand visual information
-computer vision is like giving computers the ability to see and understand the world like humans do. This means that computers can now identify objects, track their movement, and even recognize complex patterns in images and videos
+Computer vision is the field of artificial intelligence that enables computers to interpret and understand visual information computer vision is like giving computers the ability to see and understand the world like humans do. This means that computers can now identify objects, track their movement, and even recognize complex patterns in images and videos
 
+Challanges
+Variability in Image Data
+Limited Data and Annotation:
+Robustness to Noise:
+Real-time Processing:
+Scale Variation:
+
+Applications
 Self-driving cars
 Medical imaging analysis
 Facial recognition
@@ -40,11 +47,8 @@ Combining Matplotlib with OpenCV is a powerful approach for visualizing and anal
 4. Handling Matplotlib Events for Interactive Visualization:
 
 Morphological Transformations
-Morphological transformations are operations based on the shape of an image. These operations are typically used for preprocessing in image analysis and computer vision tasks. The two primary morphological operations are Erosion and Dilation
+Morphological transformations are are a set of nonlinear operations based on the shape of an image. These operations are typically used for preprocessing in image analysis and computer vision tasks. The two primary morphological operations are Erosion and Dilation
 1. Erosion:Dilation is a morphological operation that enhances the brighter regions in an image
 2. Dilation:Erosion is a morphological operation that diminishes the brighter regions in an image
 3. Opening: Opening is a combination of an erosion operation followed by a dilation operation.
 4. Closing:Closing is a combination of a dilation operation followed by an erosion operation.
-
-
-

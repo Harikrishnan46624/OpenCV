@@ -39,6 +39,10 @@ Weak edges are only kept if they are connected to strong edges, otherwise they a
 Starting from the strong edges, a hysteresis process is applied to connect weak edges that are connected to strong edges.
 This ensures that entire edge contours are identified.
 
+Advantages
+Effective edge detection
+Robust to noise:
+Edges are well localized
 
 Image pyramid. Gaussian and Laplacian
 Image pyramids, specifically Gaussian and Laplacian pyramids, are techniques used in image processing for multi-scale representation of images. These pyramids are constructed by repeatedly applying operations like smoothing (Gaussian blurring) and subtraction (Laplacian) to the images at different scales. This helps in tasks such as image blending, image compression, and image processing at different resolutions.
